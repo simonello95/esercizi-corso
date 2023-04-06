@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>HTML Form</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+      <form>
+          <label for="email">Email</label>
+          <input type="email" name="email" placeholder="Insert your email">
+          <label for="password">password</label>
+          <input type="password" name="password" placeholder="Enter your password">
+          <label for="name_and_surname">Name and Surname</label>
+          <input type="text" name="name_and_surname" placeholder="Insert your name and Surname">
+          <label for="date_birth">Date of your birth</label>
+          <input type="date" name="date_birth">
+          <label for="telephone_num">Telephone number</label>
+          <input type="text" name="telephone_num" required pattern="[0-9]+">
+          <label for="planes">Select your planes</label>
+
+
+          <select name="planes" id="planes">
+            <option value="free">Free plan</option>
+            <option value="plan1">Plan1</option>
+            <option value="plan2">Plan2</option>
+            <option value="plan3">Plan3</option>
+          </select>
+
+
+            <label for="pro">Plane pro</label>
+            <input type="checkbox" id="pro" name="plane_pro">
+            <label for="credit_card">Credit card</label>
+            <input type="text" name="credit_card" id="credit_card"
+            required pattern="[0-9]+" maxlength="16">
+            <label for="cvc">CVC</label>
+            <input type="text" name="cvc" id="cvc"
+            required pattern="[0-9]+" maxlength="3">
+            <label for="expiration_date">Expiration date</label>
+            <input type="text" name="expiration_date" placeholder="MM/AAAA">
+            <label for="billing_addres">Billing address</label>
+            <input type="text" name="billing_addres" placeholder="address"><br><br>
+            <button>Submit</button>
+      </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
