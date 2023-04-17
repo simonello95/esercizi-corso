@@ -8,6 +8,10 @@ body {
     
 }
 
+img {
+    background-color: grey;
+}
+
 /* p {
     border: solid black 1px;
 } */
