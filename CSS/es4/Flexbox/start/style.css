@@ -11,15 +11,19 @@ div.navbar {
     flex-direction: column;
     margin-left: -9px;
     margin-top: -7px;
+    align-items: center;
+    justify-content: center;
 }
 
 div.logo {
     background-color: white;
+    
 }
 
 img {
+    
     max-width: 150px;
-    margin-left: 20px;
+   
     
 }
 
@@ -34,9 +38,6 @@ li {
     border-radius: 40px;
 }
 
-p {
-    margin-left: 30px;
-}
 
 a:visited{
     color: #2b2b2b;
@@ -47,4 +48,3 @@ a:hover {
     transition: all 0.3s ease;
 
 }
-
