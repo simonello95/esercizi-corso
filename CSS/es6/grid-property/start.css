@@ -23,6 +23,7 @@ body {
   #arancione {
     background-color: #ffc788;
     grid-area: arancione;
+    height: 30px;
   }
   
   #giallo {
@@ -38,6 +39,7 @@ body {
   #blu {
     background-color: #98d2ff;
     grid-area: blu;
+    height: 230px;
   }
   
   ul {
