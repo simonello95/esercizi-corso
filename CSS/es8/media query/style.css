@@ -1,0 +1,105 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 276px;
+    
+}
+
+.header-card {
+    display: flex;
+    background-color: rgb(143, 138, 138);
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    padding-bottom:7px;
+}
+
+
+.nome-header {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4px;
+}
+
+.puntini {
+    display: flex;
+    
+}
+
+.logo-header {
+    display: flex;
+    border-radius: 100px 100px 100px 100px;
+    width: 20px;
+}
+
+.card-image {
+    width: 276px;
+    height: 160px;
+}
+
+.loghi {
+    background-color: rgb(143, 138, 138);
+    width: 276px;
+    height: 19px;
+}
+
+.description {
+    background-color:rgb(143, 138, 138);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.image-puntini {
+    height:20px;
+}
+
+.image-card {
+    width: 276px;
+    height: 158px;
+}
+
+.logoandname {
+    display: flex;
+}
+h4 {
+    margin:0;
+
+}
+
+.img-header {
+    padding-top: 4px;
+    padding-left: 3px;
+}
+
+.data {
+    color: white;
+}
+
+p {
+    padding-left: 6px;
+}
+
+.logo {
+    padding-left: 8px;
+}
+@media (max-width:375px) {
+    .container {
+
+    grid-template-columns:1fr;
+    }
+}
+
+@media (min-width:375px) and (max-width:768px) {
+    .container {
+
+    grid-template-columns:repeat(2,1fr);
+    }
+}
