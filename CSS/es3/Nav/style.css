@@ -1,10 +1,62 @@
+.menu {
+    display: flex;
+    
+}
+
+.lis1 {
+    width: 60px;
+}
+
+.lis2 {
+    width: 60px;
+}
+
+.lis3 {
+    display: flex;
+}
 .search:hover {
     background-color: green;
     color: white;
 }
 
-@media (min-width:768px) {
-    nav {
-        display:none
+.hamb {
+    display: none;
+}
+
+@media (max-width:768px) {
+    
+    
+    .lis1 {
+        
+        display: none;
+    }
+    
+    .lis2 {
+        display: none;
+       
+    }
+    
+    .lis3 {
+        display: none;
+    }
+    .search:hover {
+        display: none;
+    }
+    
+    .hamb {
+        display: flex;
+    }
+
+    .giacomo {
+        display: none;
+    }
+
+    .lis4 {
+        display: none;
+    }
+
+    .search {
+        display: none;
+        flex-direction: ;
     }
 }
