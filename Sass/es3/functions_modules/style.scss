@@ -1,0 +1,58 @@
+@use "function.scss" as f;
+
+@mixin article-card($color, $border-color, $font-size){
+    color: $color;
+    border: f.to-rem(1) solid $border-color;
+    font-size: f.to-rem($font-size);
+}
+
+
+
+div{
+    border: f.to-rem(1) solid red;
+
+    h1{
+        color:green ;
+        text-align: center;
+        text-decoration: underline blue;
+        
+    }
+    
+    .first-section{
+        display: flex;
+        article:nth-child(odd){
+            @include article-card(blue, green, 1rem)
+        }
+        article:nth-child(even){
+            @include article-card(red, green, 1rem)
+        }
+          
+
+    }
+
+    article{
+        margin-left: f.to-rem(10);
+        margin-right: f.to-rem(10);
+    }
+
+    p{
+        padding-left: f.to-rem(20);
+    }
+
+    .final-p{
+        padding-left: f.to-rem(120);
+    }
+
+    .under-article{
+        @include article-card(green, blue, 24);
+        margin-top: f.to-rem(20);
+        margin-bottom: f.to-rem(20);
+        
+        
+       
+        
+    }
+
+   
+    
+}

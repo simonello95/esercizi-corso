@@ -1,0 +1,40 @@
+div {
+  border: 0.0625rem solid red;
+}
+div h1 {
+  color: green;
+  text-align: center;
+  text-decoration: underline blue;
+}
+div .first-section {
+  display: flex;
+}
+div .first-section article:nth-child(odd) {
+  color: blue;
+  border: 0.0625rem solid green;
+  font-size: 0.0625remrem;
+}
+div .first-section article:nth-child(even) {
+  color: red;
+  border: 0.0625rem solid green;
+  font-size: 0.0625remrem;
+}
+div article {
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
+}
+div p {
+  padding-left: 1.25rem;
+}
+div .final-p {
+  padding-left: 7.5rem;
+}
+div .under-article {
+  color: green;
+  border: 0.0625rem solid blue;
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+/*# sourceMappingURL=style.css.map */
