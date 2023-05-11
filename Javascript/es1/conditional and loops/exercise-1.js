@@ -8,25 +8,25 @@
 function calculateSalary(role) {
   switch (role) {
     case 'ceo':
-      console.log('the Ceo salary is 2200 eur');
+      return'the Ceo salary is 2200 eur'
       break;
       
       case 'manager':
-        console.log('the Manager salary is 1800 eur');
+        return'the Manager salary is 1800 eur';
         break;
 
         case 'cto':
-          console.log('the Cto salary is 1800 eur');
+          return'the Cto salary is 1800 eur';
           break;
 
           case 'developer':
-            console.log('the Developer salary is 1500 eur');
+            return'the Developer salary is 1500 eur';
             break;
 
             
   
     default:
-      console.log('the salary is è 1000 eur');
+      return 'the salary is è 1000 eur';
       break;
   }
 
