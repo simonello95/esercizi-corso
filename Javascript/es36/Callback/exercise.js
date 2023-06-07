@@ -3,9 +3,11 @@ function repeatHello(callback,num) {
     setInterval(() => clearInterval(id), 1000 * num)
 }
 
-function callback() {
+const callback = () => {
     console.log("Ciao");
 }
+
+//l'arrow function è una variante di scrivere le funzioni, serve a scrivere meno codice e rendere più leggibile il codice
 
 
 repeatHello(callback, 5)
